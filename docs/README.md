@@ -27,7 +27,7 @@ To create a copy of the graphDB on you own computer you will need [docker](https
 
 3.  Run the image: 
 
-       docker run -it  -p 7474:7474 -p 1337:1337 -p 7687:7687 proteomegraph
+        docker run -it  -p 7474:7474 -p 1337:1337 -p 7687:7687 proteomegraph
        
    And visit [http://localhost:7474/](http://localhost:7474/). 
 
@@ -35,23 +35,23 @@ To create a copy of the graphDB on you own computer you will need [docker](https
 
 Start up the neo4j database and linked jupyter notebook with docker-compose. To run the first time, navigate to the folder (containing docker-compose.yml) and type:
 
-       docker-compose up
+    docker-compose up
 
    Thereafter you can use 
 
-       docker-compose start
+    docker-compose start
 
    To stop the containers, use:
 
-       docker-compose stop
+    docker-compose stop
 
    Or to stop and remove them:
    
-       docker-compose down
+    docker-compose down
    
    Open your browser at the http://localhost:8888/?token=... link printed to the terminal. If the logs are not printed, run
 
-       docker-compose logs | grep 'http://localhost:.*/?token' | tail -1 
+    docker-compose logs | grep 'http://localhost:.*/?token' | tail -1 
  
    to find the correct link. 
 
