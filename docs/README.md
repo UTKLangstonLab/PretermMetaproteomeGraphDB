@@ -4,6 +4,8 @@ Dockerized graph database as referenced in:
 
 J. Alfredo Blakeley-Ruiz, Stephen K. Grady, Carissa Bleker, Michael A. Langston, and Robert L. Hettich (2020) *Highly connected metabolic networks and discriminatory reactions for necrotizing enterocolitis extracted from metaproteomics of preterm human infant gut microbiomes.* (forthcoming)
 
+Feel free to create an issue with questions. 
+
 ## Data
 Minimal data is kept in this repo. Files are avalible in the [Massive repository](https://massive.ucsd.edu/), identifier MSV000086096. 
 
